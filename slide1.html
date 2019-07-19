@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<title>CSS</title>
+<link rel="stylesheet" type="text/css" href="top_head.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="blue.css">
+<body style="margin:0;">
+<header style="width:100%; height:60px; background-color:white;float:left;">
+    <div id="logo-container" style="width:93%; margin-left:5%; margin-right: 2%; height: 60px;">
+        <img src="Capture.JPG" height=60px alt="LOGO" style="margin-top: 0px;">
+        <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events/News</a></li>
+            <li style="background-color: #3ea3d6;"><a href="literaryclub.html"><font color=white>Literary Club</font></a></li>
+            <li><a href="college.html">College</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+        </nav>
+    </div>
+</header>
+  <img class="mySlides animate-fading" src="name.jpg" style="width:100%" style="height:30%">
+  <img class="mySlides animate-fading" src="never.jpg" style="width:100%">
+  <img class="mySlides animate-fading" src="apple.jpg" style="width:100%">
+  <img class="mySlides animate-fading" src="s6.jpg" style="width:100%">
+  <img class="mySlides animate-fading" src="s7.jpg" style="width:100%">
+  <img class="mySlides animate-fading" src="s8.jpg" style="width:100%">
+  <img class="mySlides animate-fading" src="s9.jpg" style="width:100%">
+</div>
+<br><br><br>
+    <div class="tagline">In Depth of<br>Knowledge!</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+}
+</script>
+<h1>ueursigcggrsmfhmitcs;ifd.hdl</h1>
+</body>
+</html>
