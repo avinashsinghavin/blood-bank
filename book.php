@@ -58,7 +58,7 @@ $conn=mysqli_connect("localhost","root","","giet");
 </head>
 <body>
 	<div class="main">
-		<p style="font-size:20px; font-weight:600;"><center>Please wait... Redirecting to payment gateway.</center></p>
+		<p style="font-size:20px; font-weight:600;"><center>Please wait. Redirecting to payment gateway.</center></p>
 	</div>
 	<script>
 		document.querySelector('.main p').style.display='none';
