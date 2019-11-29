@@ -23,7 +23,7 @@
 </style>
 </head>
 <body>
-	<center><h1>Verify the patient details<?php session_start(); echo "<br><center>Blood Group<font style='text-transform:uppercase;'>(".$_SESSION['khoon'].")</font></center>";  ?></h1></center><br><br>
+	<center><h1>Verify the patient Details<?php session_start(); echo "<br><center>Blood Group<font style='text-transform:uppercase;'>(".$_SESSION['khoon'].")</font></center>";  ?></h1></center><br><br>
 <center>
 <table>
 <form method=post action=book.php>
